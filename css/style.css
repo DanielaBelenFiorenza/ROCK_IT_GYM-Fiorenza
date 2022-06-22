@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* ESTILO PARA HEADER */
+.encabezado {
+    background-color: black;
+    height: 10vh;
+    color: aquamarine;
+    padding-left: 100px;
+}
+
+.rock {
+    position: absolute;
+    display: inline;
+    padding-top: 15px;
+}
+
+.rock:hover{
+    font-size: 50px;
+}
+
+header a {
+    display: flex;
+    flex-direction: row;
+    color: aquamarine;
+    text-decoration: none;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    text-decoration: none;
+    list-style-type: none;
+    align-content: space-between;
+    padding-top: 45px;
+}
+
+.inicio:hover{
+    font-size: 15px;
+}
+
+.quienes-somos:hover{
+    font-size: 15px;
+}
+
+.servicios:hover{
+    font-size: 15px;
+}
+
+.dudas-frecuentes:hover{
+    font-size: 15px;
+}
+
+.contacto:hover{
+    font-size: 15px;
+}
+
+
+.grupo1index {
+    display: flex;
+    flex-direction: row;
+}
+
+.grupo1index section {
+    padding-right: 50px;
+    padding-left: 100px;
+}
+
+.img1index {
+    height: 300px;
+    width: 340px;
+}
+
+.parrafo-1-index{
+    font-size: 18px;
+}
+
+.img2index {
+    height: 300px;
+    width: 340px;
+}
+
+.parrafo-2-index{
+    font-size: 18px;
+}
+
+.img3index {
+    height: 300px;
+    width: 340px;
+}
+
+.parrafo-3-index{
+    font-size: 18px;
+}
+
+
+.inicio {
+    padding-right: 15px;
+}
+
+.quienes-somos {
+    padding-right: 15px;
+}
+
+.servicios {
+    padding-right: 15px;
+}
+
+.dudas-frecuentes {
+    padding-right: 15px;
+}
+
+.contacto {
+    padding-right: 15px;
+}
+
+
+/* ESTILO PARA MAIN */
+.cuerpo {
+    height: 80vh;
+    /* background-color: #3BA99C */
+    background-image: linear-gradient(to bottom, black, violet);
+}
+
+.cuerpo-quienes-somos{
+    height: 80vh;
+    background-image: url(../IMAGENES/quienessomosfondo.jpg);
+}
+
+.parrafo {
+    font-size: 20px;
+    color:beige; 
+    border-radius: 10px;
+    width: 45%;
+    transform: translate(805px);
+}
+
+
+/* ++++++++++++++++SERVICIOS++++++++++++++++++ */
+
+.grupo1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.grupo1 section {
+    padding-right: 50px;
+    padding-left: 185px;
+}
+
+.img1 {
+    height: 200px;
+    width: 225px;
+}
+
+.img2 {
+    height: 200px;
+    width: 225px;
+}
+
+.img3 {
+    height: 200px;
+    width: 225px;
+}
+
+
+.grupo2 {
+    display: flex;
+    flex-direction: row;
+    padding-top: 100px;
+    padding-left: 1px;
+    justify-content: space-evenly;
+}
+
+
+.img4 {
+    height: 200px;
+    width: 225px;
+}
+
+.img5 {
+    height: 200px;
+    width: 225px;
+}
+
+.parrafo-servicios{
+    color: bisque;
+}
+
+/* ++++++++++++++++DUDAS FRECUENTES+++++++++++++ */
+.pregunta-titulo{
+    color:bisque;
+}
+
+.pregunta{
+    color:blanchedalmond
+}
+
+/* ++++++++++++++++CONTACTO++++++++++++++++++ */
+.h2contacto {
+    padding-top: 100px;
+    padding-left: 600px;
+    color: aquamarine;
+}
+
+.form {
+    padding-left: 600px;
+}
+
+
+
+/* ESTILO PARA FOOTER */
+.pie-de-pagina {
+    background-color: #160920;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.grid-footer {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    list-style-type: none;
+
+}
+
+
+
+.grid-footer a {
+    text-decoration: none;
+    color: aquamarine;
+    margin: 20px;
+
+}
+
+
+
+
+
+
+/* ++++++++++++++++++++++++RESPONSIVE++++++++++++++++++ */
+

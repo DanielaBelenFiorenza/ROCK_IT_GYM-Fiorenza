@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+// *LAS VARIABLES SE IMPORTAN ARRIBA DE TODO *//
+@import './variables/colores';
+
+//MIXIN
+@mixin parrafoQuienesSomos($colorFondo, $colorLetra) {
+  text-align: justify;
+  background-color: $colorFondo;
+  color: $colorLetra;  
+}
+
+//EXTEND
+%colorFondoPrincipal{
+  background-image: linear-gradient(to bottom, black, violet);
+}
+
+
+
+@import './secciones/index';
+@import './secciones/quienes-somos';
+@import './secciones/servicios';
+@import './secciones/dudas-frecuentes';
+@import './secciones/contacto';
+
+
+
+/* ESTILO PARA HEADER */
+
+.encabezado {
+    background-color: black;
+    height: 10vh;
+    color: aquamarine;
+    padding-left: 100px;
+  }
+  
+  .rock {
+    position: absolute;
+    display: inline;
+    padding-top: 15px;
+  
+    &:hover {
+      font-size: 50px;
+    }
+  }
+  
+  header a {
+    display: flex;
+    flex-direction: row;
+    color: aquamarine;
+    text-decoration: none;
+  }
+  
+  .menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    text-decoration: none;
+    list-style-type: none;
+    align-content: space-between;
+    padding-top: 45px;
+  }
+  
+  .inicio:hover, .quienes-somos:hover, .servicios:hover, .dudas-frecuentes:hover, .contacto:hover {
+    font-size: 15px;
+  }
+
+  .inicio, .quienes-somos, .servicios, .dudas-frecuentes, .contacto {
+    padding-right: 15px;
+  }
+
+
+  /* ESTILO PARA MAIN */
+
+.cuerpo {
+    height: 80vh;
+   @extend %colorFondoPrincipal;
+  }
+
+
+  /* ESTILO PARA FOOTER */
+
+.pie-de-pagina {
+    background-color: #160920;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .grid-footer {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    list-style-type: none;
+  
+    a {
+      text-decoration: none;
+      color: aquamarine;
+      margin: 20px;
+    }
+  }
+
+  

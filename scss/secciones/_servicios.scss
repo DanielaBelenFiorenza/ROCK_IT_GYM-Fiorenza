@@ -1,0 +1,33 @@
+.grupo1 {
+    display: flex;
+    flex-direction: row;
+  
+    section {
+      padding-right: 50px;
+      padding-left: 185px;
+    }
+  }
+  
+  .img1, .img2, .img3 {
+    height: 200px;
+    width: 225px;
+  }
+  
+  .grupo2 {
+    display: flex;
+    flex-direction: row;
+    padding-top: 100px;
+    padding-left: 1px;
+    justify-content: space-evenly;
+  }
+  
+  .img4, .img5 {
+    height: 200px;
+    width: 225px;
+  }
+  
+  .parrafo-servicios {
+    color: bisque;
+  }
+  
+

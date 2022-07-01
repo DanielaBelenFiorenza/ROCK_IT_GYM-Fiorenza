@@ -1,0 +1,22 @@
+Cambios realizados para el SEO:
+
+-Se modificó la etiqueta <title> en todos los html:
+         -Index: ROCK-IT | CENTRO DE ENTRENAMIENTO.
+         -Quienes somos: ROCK-IT | QUIENES SOMOS.
+         -Servicios: ROCK-IT | SERVICIOS.
+         -Dudas Frecuentes: ROCK-IT | DUDAS FRECUENTES.
+         -Contacto: ROCK-IT | CONTACTO.
+
+-Se agregaron keywords a todos los html:
+         -Index: "gym, entrenar, salud, estilo de vida, personal trainer, centro de entrenamiento"
+         -Quienes somos: "quienes somos, trayectoria, nosotros, profesionales, salud, entrenamiento, calidad de vida"
+         -Servicios: "gym, clases, stretching, postural, funcional, aire libre, fuerza, bandas, correr, entrenar"
+         -Dudas Frecuentes: "dudas, consultas, preguntas, entrenamiento, clases, horarios"
+         -Contacto: "contacto, consulta, nombre, apellido, mail, dudas"
+
+-Se agregó etiqueta <meta> con description a todos los html:
+         -Index: "Te invitamos a conocernos! Acercate a nuestro gym y sacate todas las dudas!"
+         -Quienes somos: "Te invitamos a conocernos! Acercate a nuestro gym y conocé a nuestros profesionales!"
+         -Servicios: "Te invitamos a conocernos! Date una vuelta por el gym y probá tu primer clase gratis!"
+         -Dudas Frecuentes: "Te invitamos a conocernos! Por acá te dejamos algunas de las dudas más frecuentes."
+         -Contacto: "No dudes en contactarnos! Dejanos cualquier consulta o duda que tengas y te responderemos a la brevedad."

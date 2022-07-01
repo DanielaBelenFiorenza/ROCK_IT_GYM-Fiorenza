@@ -1,0 +1,15 @@
+.cuerpo-quienes-somos {
+    height: 80vh;
+    background-image: url(../IMAGENES/quienessomosfondo.jpg);
+  }
+  
+  .parrafo {
+    font-size: 18px;
+    border-radius: 10px;
+    width: 45%;
+    transform: translate(805px);
+    @include parrafoQuienesSomos(rgb(33, 0, 33), rgb(174, 250, 220) );
+  }
+
+
+  

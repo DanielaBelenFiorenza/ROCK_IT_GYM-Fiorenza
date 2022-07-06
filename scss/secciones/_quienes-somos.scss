@@ -4,11 +4,11 @@
   }
   
   .parrafo {
-    font-size: 18px;
-    border-radius: 10px;
+    font-size: 20px;
+    border-radius: 8px;
     width: 45%;
     transform: translate(805px);
-    @include parrafoQuienesSomos(rgb(33, 0, 33), rgb(174, 250, 220) );
+    @include parrafoQuienesSomos(rgba(33, 0, 33, 0.405), rgb(187, 249, 224) );
   }
 
 

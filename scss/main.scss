@@ -34,13 +34,13 @@
     background-color: black;
     height: 10vh;
     color: aquamarine;
-    padding-left: 100px;
   }
   
   .rock {
-    position: absolute;
-    display: inline;
-    padding-top: 15px;
+    padding-top: 30px;
+    margin-left: 50px;
+    font-size: 35px;
+    height: 50px;
   
     &:hover {
       font-size: 50px;
@@ -61,8 +61,8 @@
     text-decoration: none;
     list-style-type: none;
     align-content: space-between;
-    padding-top: 45px;
-  }
+
+      }
   
   .inicio:hover, .quienes-somos:hover, .servicios:hover, .dudas-frecuentes:hover, .contacto:hover {
     font-size: 15px;
@@ -103,4 +103,3 @@
     }
   }
 
-  

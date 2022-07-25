@@ -6,6 +6,7 @@
   background-image: linear-gradient(to bottom, black, violet); }
 
 .grupo1index {
+  margin-top: 50px;
   display: flex;
   flex-direction: row; }
   .grupo1index section {
@@ -19,10 +20,6 @@
 .parrafo-1-index {
   font-size: 18px;
   text-align: center; }
-
-.img2index {
-  height: 370px;
-  width: 420px; }
 
 .parrafo-2-index {
   font-size: 18px;
@@ -98,13 +95,13 @@
 .encabezado {
   background-color: black;
   height: 10vh;
-  color: aquamarine;
-  padding-left: 100px; }
+  color: aquamarine; }
 
 .rock {
-  position: absolute;
-  display: inline;
-  padding-top: 15px; }
+  padding-top: 30px;
+  margin-left: 50px;
+  font-size: 35px;
+  height: 50px; }
   .rock:hover {
     font-size: 50px; }
 
@@ -120,8 +117,7 @@ header a {
   justify-content: right;
   text-decoration: none;
   list-style-type: none;
-  align-content: space-between;
-  padding-top: 45px; }
+  align-content: space-between; }
 
 .inicio:hover, .quienes-somos:hover, .servicios:hover, .dudas-frecuentes:hover, .contacto:hover {
   font-size: 15px; }

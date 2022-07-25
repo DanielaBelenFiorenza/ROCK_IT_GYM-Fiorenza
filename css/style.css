@@ -123,10 +123,18 @@ header a {
   list-style-type: none;
   align-content: space-between; }
 
-.inicio:hover, .quienes-somos:hover, .servicios:hover, .dudas-frecuentes:hover, .contacto:hover {
+.inicio:hover,
+.quienes-somos:hover,
+.servicios:hover,
+.dudas-frecuentes:hover,
+.contacto:hover {
   font-size: 15px; }
 
-.inicio, .quienes-somos, .servicios, .dudas-frecuentes, .contacto {
+.inicio,
+.quienes-somos,
+.servicios,
+.dudas-frecuentes,
+.contacto {
   padding-right: 15px; }
 
 /* ESTILO PARA MAIN */
@@ -149,3 +157,98 @@ header a {
     text-decoration: none;
     color: aquamarine;
     margin: 20px; }
+
+@media (max-width: 400px) {
+  .parrafo-1-index {
+    font-size: 9px;
+    text-align: center; }
+  .parrafo-2-index {
+    width: 90px;
+    margin-left: 5px;
+    font-size: 9px;
+    text-align: center; }
+  .parrafo-3-index {
+    width: 100px;
+    margin-left: 40px;
+    font-size: 9px;
+    text-align: center; }
+  .menu {
+    font-size: 9px; }
+  .rock {
+    font-size: 30px;
+    margin-left: 22%; }
+  .img1index {
+    height: 75px;
+    width: 80px; }
+  .img2index {
+    margin-left: 10px;
+    height: 75px;
+    width: 80px; }
+  .img3index {
+    margin-left: 50px;
+    margin-top: 0px;
+    height: 75px;
+    width: 80px; }
+  .grupo1index {
+    display: flex;
+    flex-wrap: wrap; }
+  .parrafo {
+    margin-left: 40px;
+    width: 80%;
+    font-size: 14px;
+    padding: 0;
+    transform: none; }
+  .cuerpo-quienes-somos {
+    background-size: cover; }
+  .img1 {
+    margin-left: 10px;
+    height: 80px;
+    width: 80px; }
+  .img2 {
+    margin-left: 25px;
+    margin-right: 45px;
+    height: 80px;
+    width: 80px; }
+  .img3 {
+    margin-top: 9px;
+    margin-left: 10px;
+    height: 80px;
+    width: 80px; }
+  .img4 {
+    margin-left: 10px;
+    height: 80px;
+    width: 80px;
+    margin-left: 15px;
+    padding: 0;
+    transform: translate 0px 100px; }
+  .img5 {
+    margin-left: 10px;
+    height: 80px;
+    width: 80px;
+    margin-left: 15px;
+    padding: 0;
+    transform: translate 0px 150px; }
+  .grupo1 {
+    width: 100%;
+    display: flex;
+    margin-right: 200px;
+    padding: 0; }
+  .grupo2 {
+    display: none; }
+  .cuerpo {
+    display: flex;
+    flex-wrap: wrap; }
+  .grupo1 section {
+    padding: 0px; }
+  .parrafo-servicios {
+    margin-left: 10px;
+    font-size: 15px; }
+  .pregunta-titulo {
+    margin-top: 50px;
+    font-size: 20px; }
+  .h2contacto {
+    height: 30px;
+    padding: 0;
+    margin-top: 100px; }
+  .form {
+    padding: 0; } }
